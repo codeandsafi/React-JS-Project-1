@@ -30,7 +30,11 @@ ReactDOM.render(<>
   {/* gender input section */}
   <div className="innerDiv">
   <label htmlFor="gender" className="label">Gender</label><br/>
-  <input id="gender" className="input-field"></input>
+  <div id="gender">
+        <input className="radio" type="radio" value="Male" name="gender" /> Male
+        <input className="radio" type="radio" value="Female" name="gender" /> Female
+        <input className="radio" type="radio" value="Other" name="gender" /> Other
+      </div>
   </div>
 
   {/* city input section */}
