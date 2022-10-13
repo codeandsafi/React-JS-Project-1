@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+   background-color: rgb(165, 168, 197);
+}
+
+
+.body{
+  display: flex;
+  justify-content: center;
+
+}
+.element{
+  background-color: rgb(81, 83, 107);
+  height: 85vh;
+  width: 30vw;
+  margin-top: 35px;
+  border-radius: 8px;
+}
+
+.heading{
+  padding: 30px;
+  color: rgb(255, 242, 255);
+  font-size: 1.3rem;
+  letter-spacing: 0.6ch;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.name{
+  position: relative;
+  display: inline-block;
+  padding: 12px;
+}
+
+.innerDiv{
+  position: relative;
+  display: inline-block;
+  padding: 12px;
+}
+
+.input-field-name{
+  height: 30px;
+}
+
+.input-field{
+  height: 30px;
+  width: 27vw;
+}
+
+.label{
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(154, 155, 160);
+}
+
+.btn {
+  background: rgb(202, 180, 202);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: black;
+  height: 30px;
+  width: 28vw;
+  font-size: 20px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 0.6ch;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.btn:hover {
+  background: rgb(190, 153, 190);
+  text-decoration: none;
+}
